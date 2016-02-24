@@ -9,7 +9,7 @@ def producto_matrices(a,b):
                         res=[]
                         for j in range(nfilas_b):
                                 x=a[i][j]*b[j][k]
-                                res+=[x]
+                                res=[x]
                         suma=sum(res)
                         res1+=[suma]
                 res2.append(res1)
